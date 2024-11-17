@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 70vw;
+    height: 80vh;
+    overflow: hidden;
+    background-color: blue;
+    display: flex;
+}
+
+.container > .content{
+    height: 100%;
+    width: 50%;
+    background-color:rgb(247, 214, 220);
+    padding-left: 15px;
+}
+
+.content > h1{
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.content  h3 {
+    text-transform: uppercase;
+    padding-left: 45px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+ .content > hr{
+    width: 20vw;
+    margin: 10px 25px;
+} 
+
+.content  p{
+    font-size: 25px;
+    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content > h2{
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.content > button{
+    background-color: brown;
+    color: white;
+    width: 40%;
+    padding: 5px;
+    box-shadow: 1px solid black;
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.content > h4{
+    font-size: 15px;
+    padding: 15px;
+}
+
+.container  .content1 {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+.content1 > img{
+    width: 100%;
+    height: 50%;
+}
+
+.content1 > .left{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.left img{
+    margin: 10px;
+    width: 17vw;
+}
